@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/yakir/Documents/CLionProjects/Gcalc/Auxiliaries.cpp
-Auxiliaries.h
-/Users/yakir/Documents/CLionProjects/Gcalc/Auxiliaries.h
-
 /Users/yakir/Documents/CLionProjects/Gcalc/Auxiliaries.h
 set
 -
@@ -38,12 +34,6 @@ Graph.h
 Auxiliaries.h
 /Users/yakir/Documents/CLionProjects/Gcalc/Auxiliaries.h
 
-/Users/yakir/Documents/CLionProjects/Gcalc/Graph.cpp
-Graph.h
-/Users/yakir/Documents/CLionProjects/Gcalc/Graph.h
-algorithm
--
-
 /Users/yakir/Documents/CLionProjects/Gcalc/Graph.h
 iostream
 -
@@ -62,10 +52,6 @@ exception
 string
 -
 
-/Users/yakir/Documents/CLionProjects/Gcalc/Parser.cpp
-Parser.h
-/Users/yakir/Documents/CLionProjects/Gcalc/Parser.h
-
 /Users/yakir/Documents/CLionProjects/Gcalc/Parser.h
 iostream
 -
@@ -81,12 +67,4 @@ vector
 -
 set
 -
-
-/Users/yakir/Documents/CLionProjects/Gcalc/main.cpp
-iostream
--
-Parser.h
-/Users/yakir/Documents/CLionProjects/Gcalc/Parser.h
-Gcalc.h
-/Users/yakir/Documents/CLionProjects/Gcalc/Gcalc.h
 

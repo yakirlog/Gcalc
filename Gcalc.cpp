@@ -190,6 +190,7 @@ void Gcalc::doSave(Parser& parser) {
         }
         copy.push_back(*element);
     }
+    // todo continue
 }
 
 
@@ -330,12 +331,9 @@ Graph Gcalc::simplifyExpression(Parser& parser) {
 Graph Gcalc::defineGraph(std::vector<std::string>& definition, std::string& definition_str){
     // first we check for an empty graph.
     if(definition.size() <= 3){
-        // {} allowed
-        if(definition.at(0) == "{" && definition.at(1) == "}"){
-            return Graph();
-        }
-        // {|} allowed
-        else if(definition.at(0) == "{" && definition.at(1) == "|" && definition.at(2) == "}"){
+        // {} or {|} are allowed
+        if((definition.at(0) == "{" && definition.at(1) == "}") ||
+        (definition.at(0) == "{" && definition.at(1) == "|" && definition.at(2) == "}")){
             return Graph();
         }
         else{
