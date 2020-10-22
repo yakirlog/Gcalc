@@ -1,0 +1,73 @@
+Error: Unrecognized command'G5 = G1 - (G4 ^ (G3))'
+G1
+G2
+G3
+G4
+Error: Undefined variable 'G5'
+Error: Unrecognized command 'print(G1 - (G4 ^ (G3)))'
+Error: Unrecognized command'G6 = G2 + ((G3 - (G4 + G5)) * G1)'
+Error: Undefined variable 'G6'
+Error: Unrecognized command 'print(G2 + ((G3 - (G4 + G5)) * G1))'
+Error: Undefined variable 'G6'
+Error: Undefined variable 'G7'
+Error: Unrecognized command 'print(G6 - !(G5 ^ G1))'
+Error: Unrecognized command'G8 = !G1 - !!(G4 ^ !!!G3)'
+Error: Undefined variable 'G8'
+Error: Unrecognized command 'print(!G1 - !!(G4 ^ !!!G3))'
+Error: Unrecognized command 'print(!(G1 - !(!G4 ^ !!!G3)))'
+Error: Unrecognized command'G9 = ((!G1 + ((!G2 - G3))) + (!(!G4 + G1) - G2))'
+G1
+G2
+G3
+G4
+Error: Undefined variable 'G9'
+Error: Unrecognized command 'print(((!G1 + ((!G2 - G3))) + (!(!G4 + G1) - G2)))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'print((*(!G1 + ((!G2 - G3))) + (!(!G4 + G1) - G2)))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'print((*(!G1 + ((-!G2 - G3))) + (!(!G4 + G1) - G2)))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'print((*(!G1 + ((!G2 - G3))) + (+!(!G4 + G1) - G2)))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'print  ((((G1 ) ) ))'
+Error: Unrecognized command 'print ( (-G1))'
+Error: Unrecognized command 'print(-(G1))'
+Error: Undefined variable 'print'
+G1
+G2
+G3
+G4
+Error: Undefined variable 'G12'
+Error: Unrecognized command 'print(())'
+Error: Unrecognized command 'delete(((G 1)))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'delete((((-G1))))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'delete(((G1 - G2)))'
+G1
+G2
+G3
+G4
+Error: Unrecognized command 'delete(((G1 )))'
+G1
+G2
+G3
+G4

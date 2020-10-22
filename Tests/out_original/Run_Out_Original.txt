@@ -1,0 +1,411 @@
+g1
+g2
+g3
+g4
+g5
+g6
+a
+b
+x1
+x2
+x3
+x4
+$
+a b
+x1 x2
+x2 x3
+x3 x1
+x3 x4
+x4 x1
+x1
+x2
+x3
+$
+$
+$
+x1
+x2
+x3
+$
+Error: Invalid Edge '<[[;]],[[;;]]>'
+[;x1]
+[[;;]]
+[[;]]
+a
+x1
+$
+[[;]] [[;;]]
+x1 [;x1]
+[[;x1];x1]
+[[;x1];x2]
+[[;x1];x3]
+[[;x1];x4]
+[[[;;]];x1]
+[[[;;]];x2]
+[[[;;]];x3]
+[[[;;]];x4]
+[[[;]];x1]
+[[[;]];x2]
+[[[;]];x3]
+[[[;]];x4]
+[a;x1]
+[a;x2]
+[a;x3]
+[a;x4]
+[x1;x1]
+[x1;x2]
+[x1;x3]
+[x1;x4]
+[x2;x1]
+[x2;x2]
+[x2;x3]
+[x2;x4]
+[x3;x1]
+[x3;x2]
+[x3;x3]
+[x3;x4]
+$
+[[[;]];x1] [[[;;]];x2]
+[[[;]];x2] [[[;;]];x3]
+[[[;]];x3] [[[;;]];x4]
+[[[;]];x4] [[[;;]];x1]
+[x1;x1] [[;x1];x2]
+[x1;x2] [[;x1];x3]
+[x1;x3] [[;x1];x4]
+[x1;x4] [[;x1];x1]
+[[;x1];x1]
+[[;x1];x2]
+[[;x1];x3]
+[[[;;]];x1]
+[[[;;]];x2]
+[[[;;]];x3]
+[[[;]];x1]
+[[[;]];x2]
+[[[;]];x3]
+[a;x1]
+[a;x2]
+[a;x3]
+[x1;x1]
+[x1;x2]
+[x1;x3]
+$
+g1
+g2
+g3
+g4
+g5
+g6
+g8
+x
+y
+x1
+x2
+x3
+$
+g1
+g2
+g3
+g4
+g5
+g6
+g8
+x
+y
+z
+$
+g1
+g2
+g3
+g4
+g5
+g6
+g8
+x
+y
+z
+g1
+g1
+g2
+g3
+g4
+g5
+x
+y
+z
+$
+x y
+z x
+a
+b
+c
+d
+$
+a b
+a c
+c d
+x1
+x2
+x3
+x4
+x5
+$
+x1 x2
+x1 x3
+x1 x4
+x1 x5
+x2 x3
+x2
+x3
+x4
+x5
+$
+x2 x3
+x3 x2
+x4 x5
+x5 x4
+1
+2
+3
+4
+$
+1 2
+1 3
+2 3
+3 4
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+Error: Unrecognized command 'g   1={x}'
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+Error: Graph's name must begin with a letter '1g'
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+Error: Unrecognized command 'delete={x}'
+Error: Unrecognized command 'print={X}'
+Error: Unrecognized command 'who={X}'
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+Error: Unrecognized command 'g8={,}'
+Error: Invalid Vertex ';[]'
+Error: Invalid Edge '<x,z>'
+Error: Edge is Already Exist '<x,y>'
+Error: Vertex is Already Exist 'x'
+Error: Loops are not allowed! '<x,x>'
+Error: Unrecognized command 'g8={x,y,,z}'
+Error: Unrecognized command 'g8={x,y,z|,<x,y>,<x,z>}'
+x
+$
+1
+2
+3
+4
+x
+y
+z
+$
+1 2
+1 3
+2 3
+3 4
+x y
+z x
+Error: Undefined variable 'g'
+Error: Undefined variable ','
+1
+2
+3
+4
+x
+y
+z
+$
+1 2
+1 3
+2 3
+3 4
+x y
+z x
+x1
+$
+x
+y
+z
+$
+x y
+z x
+[x;a]
+[x;b]
+[x;c]
+[x;d]
+[y;a]
+[y;b]
+[y;c]
+[y;d]
+[z;a]
+[z;b]
+[z;c]
+[z;d]
+$
+[x;a] [y;b]
+[x;a] [y;c]
+[x;c] [y;d]
+[z;a] [x;b]
+[z;a] [x;c]
+[z;c] [x;d]
+x2
+x3
+x4
+x5
+$
+x2 x3
+$
+x
+y
+z
+$
+x z
+y x
+y z
+z y
+x
+y
+z
+$
+x y
+z x
+Error: Undefined variable 'g9'
+a1
+b1
+b2
+c1
+d1
+d2
+e1
+e2
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+Error: Unrecognized command 'delete((g8))'
+a1
+b1
+b2
+c1
+d1
+d2
+e1
+e2
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+a1
+b1
+b2
+c1
+d1
+d2
+e1
+e2
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+$
+Error: Unrecognized command 'f2= ((g1^g2) + !(g2)) + !((g3)+{e,f|})'
+Error: Undefined variable 'f2'
+Error: Unrecognized command 'print(((g4-g3)*g5))'
+Error: Unrecognized command'print({x,y|<x,y>} + {w,z|<z,w>})'
+Error: Unrecognized command 'print(!        ({x,y|}))'
+Error: Undefined variable 'h1'
+Error: Unrecognized command 'i1 = g1+ g2 = '
+a1
+b1
+b2
+c1
+d1
+d2
+e1
+e2
+f1
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+Error: Unrecognized command 'prin t(g1)'
+Error: Unrecognized command 'wh o'
+Error: Unrecognized command 'del ete(e1)'
+Error: Undefined variable 'g10'
+Error: Undefined variable 'j1'
+Error: Unrecognized command 'qui t'
+a1
+b1
+b2
+c1
+d1
+d2
+e1
+e2
+f1
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+Error: Unrecognized command 're set'
+a1
+b1
+b2
+c1
+d1
+d2
+e1
+e2
+f1
+g1
+g2
+g3
+g4
+g5
+g6
+g7

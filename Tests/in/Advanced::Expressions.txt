@@ -1,0 +1,46 @@
+G1={x1,x2,x3,x4|<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>} 
+G2 = { x1   ,x2, y1 | <x1   ,y1> , <x2,x1>}
+G3={x1, x2, x3 | <x1,x2>, <x2,x3>, <x3,x1>}
+G4 = {a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}
+G5 = G1 - G4 ^ G3
+who
+print(G5)
+print(G1 - G4 ^ G3)
+G6 = G2 + G3 - G4 + G5 * G1
+print(G6)
+print(G2 + G3 - G4 + G5 * G1)
+G7 = !G6 - G5 ^ G1
+print(G7)
+print(!G6 - G5 ^ G1)
+who
+G7 = G6 - !G5 ^ G1
+print(G7)
+print(G6 - !G5 ^ G1)
+who
+G7 = G6 - G5 ^ !G1
+print(G7)
+print(G6 - G5 ^ !G1)
+who
+G8 = !G1 - !!G4 ^ !!!G3
+print(!G1 - !!G4 ^ !!!G3)
+G9 = !G1 + !G2 - G3 + !!G4 ++ G1 - G2
+print(G9)
+who
+G9 = !G1 + !G2 - G3 + !!G4 + G1 - G2
+who
+print(G9)
+G9 = !G1 + !G2 - !G3 + !G4 + !G1 - !G2
+who
+print(G9)
+print(!G1 + !G2 - !G3 + !G4 + !G1 - !G2)
+G3 = G1+G2*G2
+G4 = G1+!G2*G2
+who
+print(G3)
+print(G4)
+print(G1+G2*G2)
+print(G1+!G2*G2)
+who
+reset
+print(G1)
+quit

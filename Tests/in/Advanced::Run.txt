@@ -1,0 +1,110 @@
+g1 ={a,b|<a,b>}
+g2 = {x1,x2,x3,x4|<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>}
+g3 = { x1,y1 | <x1,y1> }
+g4 = {x1, x2, x3 | <x1,x2>, <x2,x3>, <x3,x1>}
+g5 = g1 +g2 +g4 -!!!g3
+g6 = !g5 ^ g4 + !!!!!g2
+who
+print(g5)
+print(g6)
+print(g6^!g5-!!!g3)
+g8 = !g6
+print(!g6)
+print(!!g8)
+x = { [[;]],[[;;];],[;x1],a, x1 | <x1,[;x1]>,<[[;]],[[;;]]>}
+x = { [[;]],[[;;]],[;x1],a, x1 | <x1,[;x1]>,<[[;]],[[;;]]>}
+print(x)
+print(x+g6 *g2)
+x = x * g6^!g5-!!!g3
+print(x)
+y = g1 + g2 + g4 ^ g6
+who
+print(y)
+z = g1 + !g2 - !g3 * g1
+who
+print(z)
+       g1           =               {        x    ,    y   ,   z  | <  x,  y>      , <z,   x>}     
+       g2           =        {    a    ,  b   ,   c,   d  | <  a,  b>      , <c,   d>,  <a,c>} 
+who     
+              reset
+       g1           =               {        x    ,    y   ,   z  | <  x,  y>      , <z,   x>}     
+        who
+       g2           =        {    a    ,  b   ,   c,   d  | <  a,  b>      , <c,   d>,  <a,c>}    
+       g3           =               {        x1    ,    x2   ,   x3 , x4 ,  x5  | <  x1,  x2>      , <x1,   x3>, <x1, x4>, <x1,x5>,<x2,x3>}     
+       g4           =               {        x2    ,   x3   ,   x4 ,x5 | <  x2   , x3  > , < x3,x2> , <x4,x5> , <x5,x4>}     
+       g5           =               {  1,2,3,4 | <1,2>,<1,3>,<2,3>,<3,4>}           
+            who          
+print(g1)
+print(g2       )                
+print(       g3       )
+print(        g4       )                 
+print(          g5)       
+g6  = {                  }
+g7= {       | }
+g8={x}
+who
+g   1={x}
+who
+1g={x} 
+who
+delete={x}
+print={X}
+who={X}
+who
+g8={,}
+g8={;[]}
+g8={x,y|<x,z>}
+g8={x,y|<x,y>,<x,y>}
+g8={x,x}
+g8={x,y|<x,x>}
+g8={x,y,,z}
+g8={x,y,z|,<x,y>,<x,z>}
+print(g8)
+a1=g1        +     g5
+print(a1)
+a1  =  g2+g   3
+a1  =  g2+,g3
+print(a1)
+b1=g3-g4
+print(b1)
+b2=g1-g2
+print(b2)
+c1=g1*g2
+print(c1)
+d1=g3^g4
+print(d1)
+d2=g5^g4
+print(d2)
+e1=!g1
+print(e1)
+e2=!   !  !!g1
+print(e2)
+delete(g9)
+who
+delete((g8))
+who
+delete(g8)
+who
+f1 = g1^g2 + !    g5*g4
+print     (f1)
+f2= ((g1^g2) + !(g2)) + !((g3)+{e,f|})
+print(f2)
+print(((g4-g3)*g5))
+print({x,y|<x,y>} + {w,z|<z,w>})
+print(!        ({x,y|}))
+print(h1)
+i1 = g1+ g2 = 
+who
+prin t(g1)
+wh o
+del ete(e1)
+j1=g1+g10
+print(j1)
+qui t
+who
+re set
+who
+          reset       
+who
+
+          quit       

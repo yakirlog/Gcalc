@@ -1,0 +1,154 @@
+a
+b
+$
+b a
+G1
+G2
+G3
+G4
+g1
+g2
+Error: Unrecognized command'print(g1 + {a,b|<b,a>})'
+G1
+G2
+G3
+G4
+g1
+g2
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+a
+b
+$
+b a
+Error: Unrecognized command 'g4 = ({a,b|<b,a>}+g1)'
+Error: Undefined variable 'g4'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'print'
+Error: Unrecognized command 'g5 = g1 + {a,b|<b,a>'
+Error: Unrecognized command 'g5 = a,b|<a,b>} + g1'
+Error: Unrecognized command 'g5 = {a,b|<b,a> + g1'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Undefined variable 'g5'
+Error: Unrecognized command 'g5 = {a,b|<b,a> + G1 + {a,b|<b,a>}'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'g5 = {a,b|<b,a>} + G1 + {a,b|<b,a>}'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Undefined variable 'g5'
+Error: Unrecognized command 'print(({a,b|<b,a>} + G1 + {a,b|<b,a>}))'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'g6 = {a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>}'
+Error: Undefined variable 'g6'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command'print({a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>})'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'g7 =  (({a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>})) - {a,b|<a,b>}'
+Error: Unrecognized command 'print((({a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>})) - {a,b|<a,b>})'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'g8 =  ((({a,b,c | <a,b>}) + {a,b,c | <b,c>}) - ({a,b|<a,b>}))'
+Error: Undefined variable 'g8'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'print(  ((({a,b,c | <a,b>}) + {a,b,c | <b,c>}) - ({a,b|<a,b>})))'
+Error: Unrecognized command 'g9 =  ((({a,b,c,d,e | <d,e>,<e,d>,<a,b>}) + ({a,b,c,d | <c,d>,<b,c>})) - !(g2))'
+Error: Undefined variable 'g9'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'print( ((({a,b,c,d,e | <d,e>,<e,d>,<a,b>}) + ({a,b,c,d | <c,d>,<b,c>})) - !(g2)))'
+Error: Unrecognized command 'g10 = G2 + (G3 - !{a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}) + G5 * G1'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Undefined variable 'g10'
+Error: Unrecognized command 'print(G2 + (G3 - !{a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}) + G5 * G1)'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Unrecognized command 'g11 = G3 + (G1*({a,b|<a,b>}+G2))'
+G1
+G2
+G3
+G4
+g1
+g2
+g3
+Error: Undefined variable 'g11'
+Error: Unrecognized command 'print(G3 + (G1*({a,b|<a,b>}+G2)))'
+G1
+G2
+G3
+G4
+g1
+g2
+g3

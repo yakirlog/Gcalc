@@ -1,0 +1,161 @@
+G1={x1,x2,x3,x4|<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>} 
+G2 = { x1   ,x2, y1 | <x1   ,y1> , <x2,x1>}
+G3={x1, x2, x3 | <x1,x2>, <x2,x3>, <x3,x1>}
+G4 = {a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}
+G5 = G1 + G2
+print(        G 5)
+print(  G5  )
+print( G1 + G2 )
+who
+G6 = G1 - G3
+print(G6)
+print( G1 - G3 )
+G7 = G3 - G1
+print(G7)
+print( G3 - G1 )
+G8 = G1 * G4
+who
+print(G8)
+print( G1 * G4 )
+G9 = G1 ^ G3
+print(G9)
+print( G1 ^ G3 )
+G10 = !G5
+print(G10)
+print( !G5 )
+G11 = !!G5
+print(G11)
+print(  !    ! G5 )
+G12 = !!!G4
+print(G12)
+print( !!!G4 )
+G13 = !!!!G4
+who
+print(G13)
+print( !      ! ! ! G4 )
+G14 = !G1 + G4
+G15 = G1 + !G4
+G16 = !!G1 + !G2
+G17 = !G1 + !!G3
+who
+print(G14)
+print(G15)
+print(G16)
+print(G17)
+print( ! G1 +     G4 )
+print( G1 + !G4  )
+print(  !!  G1 + !G2)
+print( !G1 + !!G3 )
+G18 = !!G1 + G4
+G19 = G1 + !!G4
+G20 = !G4 + !G1
+G21 = !!G12 + !!G2
+G22 = !!!G12 + !!!G2
+print(G18)
+print(!!G1 + G4  )
+Who
+who
+print(G19)
+print(G20)
+print(G21)
+print(G22)
+print( G1 + !!G4 )
+print( !G4 + !G1 )
+print(  !!G12 + !!G2)
+print(!!!G12 + !!!G2  )
+who
+G14 = !G1 - G4
+G15 = G1 - !G4
+G16 = !!G1 - !G2
+G17 = !G1 - !!G3
+who
+print(G14)
+print(G15)
+print(G16)
+print(G17)
+print( ! G1 -     G4 )
+print( G1 - !G4  )
+print(  !!  G1 - !G2)
+print( !G1 - !!G3 )
+G18 = !!G1 - G4
+G19 = G1 - !!G4
+G20 = !G4 - !G1
+G21 = !!G12 - !!G2
+G22 = !!!G12 - !!!G2
+print(G18)
+print(!!G1 - G4  )
+Who
+who
+print(G19)
+print(G20)
+print(G21)
+print(G22)
+print( G1 - !!G4 )
+print( !G4 - !G1 )
+print(  !!G12 - !!G2)
+print(!!!G12 - !!!G2  )
+who
+G14 = !G1 * G4
+G15 = G1 * !G4
+G16 = !!G1 * !G2
+G17 = !G1 * !!G3
+who
+print(G14)
+print(G15)
+print(G16)
+print(G17)
+print( ! G1 *     G4 )
+print( G1 * !G4  )
+print(  !!  G1 * !G2)
+print( !G1 * !!G3 )
+G18 = !!G1 * G4
+G19 = G1 * !!G4
+G20 = !G4 * !G1
+G21 = !!G12 * !!G2
+G22 = !!!G12 * !!!G2
+print(G18)
+print(!!G1 * G4  )
+Who
+who
+print(G19)
+print(G20)
+print(G21)
+print(G22)
+print( G1 * !!G4 )
+print( !G4 * !G1 )
+print(  !!G12 * !!G2)
+print(!!!G12 * !!!G2  )
+who
+G14 = !G1 ^ G4
+G15 = G1 ^ !G4
+G16 = !!G1 ^ !G2
+G17 = !G1 ^ !!G3
+who
+print(G14)
+print(G15)
+print(G16)
+print(G17)
+print( ! G1 ^     G4 )
+print( G1 ^ !G4  )
+print(  !!  G1 ^ !G2)
+print( !G1 ^ !!G3 )
+G18 = !!G1 ^ G4
+G19 = G1 ^ !!G4
+G20 = !G4 ^ !G1
+G21 = !!G12 ^ !!G2
+G22 = !!!G12 ^ !!!G2
+print(G18)
+print(!!G1 ^ G4  )
+Who
+who
+print(G19)
+print(G20)
+print(G21)
+print(G22)
+print( G1 ^ !!G4 )
+print( !G4 ^ !G1 )
+print(  !!G12 ^ !!G2)
+print(!!!G12 ^ !!!G2  )
+who
+reset
+ quit

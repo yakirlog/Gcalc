@@ -1,0 +1,57 @@
+G1={x1,x2,x3,x4|<x4,x1>, <x3,x4>,<x2,x3>,<x1,x2>} 
+G2 = { x1   ,x2, y1 | <x1   ,y1> , <x2,x1>}
+G3={x1, x2, x3 | <x1,x2>, <x2,x3>, <x3,x1>}
+G4 = {a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}
+g1 = {a,b|<a,b>}
+g2 = g1 + {a,b|<b,a>}
+print(g2)
+who
+print(g1 + {a,b|<b,a>})
+who
+g3 = {a,b|<b,a>}+g1
+who
+print(g3)
+g4 = ({a,b|<b,a>}+g1)
+print(g4)
+who
+print
+g5 = g1 + {a,b|<b,a>
+g5 = a,b|<a,b>} + g1
+g5 = {a,b|<b,a> + g1
+who
+print(g5)
+g5 = {a,b|<b,a> + G1 + {a,b|<b,a>}
+who
+g5 = {a,b|<b,a>} + G1 + {a,b|<b,a>}
+who
+print(g5)
+print(({a,b|<b,a>} + G1 + {a,b|<b,a>}))
+who
+g6 = {a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>}
+print(g6)
+who
+print({a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>})
+who
+g7 =  (({a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>})) - {a,b|<a,b>}
+print((({a,b,c | <a,b>} + {a,b,c | <b,c>} + {a,b,c|<c,a>})) - {a,b|<a,b>})
+who
+g8 =  ((({a,b,c | <a,b>}) + {a,b,c | <b,c>}) - ({a,b|<a,b>}))
+print(g8)
+who
+print(  ((({a,b,c | <a,b>}) + {a,b,c | <b,c>}) - ({a,b|<a,b>})))
+g9 =  ((({a,b,c,d,e | <d,e>,<e,d>,<a,b>}) + ({a,b,c,d | <c,d>,<b,c>})) - !(g2))
+print(g9)
+who
+print( ((({a,b,c,d,e | <d,e>,<e,d>,<a,b>}) + ({a,b,c,d | <c,d>,<b,c>})) - !(g2)))
+g10 = G2 + (G3 - !{a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}) + G5 * G1
+who
+print(g10)
+print(G2 + (G3 - !{a ,b ,c, x1 , y1 |<y1,x1>,<a,x1>,<a,b>}) + G5 * G1)
+who
+g11 = G3 + (G1*({a,b|<a,b>}+G2))
+who
+print(g11)
+print(G3 + (G1*({a,b|<a,b>}+G2)))
+who
+reset
+quit

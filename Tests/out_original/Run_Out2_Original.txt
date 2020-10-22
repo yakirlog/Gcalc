@@ -1,0 +1,71 @@
+Error: Unrecognized command'G = !!!!!!!! '
+Error: Unrecognized command 'v'
+Error: Unrecognized command'G3 = [[[]]]'
+Error: Unrecognized command '-=+*^'
+Error: Unrecognized command '[=g]'
+Error: Unrecognized command 'G4 = {|<x1,x2>,<x3,x4>}'
+Error: Unrecognized command '='
+Error: Unrecognized command '!=G'
+Error: Unrecognized command 'wh o'
+Error: Unrecognized command '{=G}'
+Error: Unrecognized command'G5 = G1 +'
+x1
+x2
+x3
+x4
+$
+x1 x2
+x1 x4
+x2 x3
+x3 x4
+x4 x1
+Error: Unrecognized command 'WHO'
+Error: Unrecognized command 'who='
+Error: Unrecognized command 'who=G'
+Error: Unrecognized command'print(G1 + -G2 + !!!G3)'
+$
+Error: Unrecognized command 'print ='
+Error: Unrecognized command 'print(=-G1)'
+Error: Unrecognized command'x = G2 + G2 - !!G3!!'
+Error: Unrecognized command'X='
+Error: Invalid Edge '<x4,x1>'
+Error: Invalid Edge '<X1,x4>'
+Error: Unrecognized command 'G11={[[. ]],[[;] ;],x3  ,x4|< x4,  [[;]; ]>, <x3, x4 > ,< [[ ;];  ],x3>,< x4, x4 >}'
+Error: Undefined variable 'G10'
+Error: Unrecognized command 'H = {v1, v4 | <<v1, v4>>}'
+Error: Unrecognized command 'H = {v1, v4 | <,<v1, v4>>}'
+Error: Unrecognized command'Y = G3          + G1 -'
+Error: Unrecognized command 'G1=G2=H'
+[[[;];];x1]
+[[[;];];x2]
+[[[;];];x3]
+[[[;];];x4]
+[[[;]];x1]
+[[[;]];x2]
+[[[;]];x3]
+[[[;]];x4]
+[x3;x1]
+[x3;x2]
+[x3;x3]
+[x3;x4]
+[x4;x1]
+[x4;x2]
+[x4;x3]
+[x4;x4]
+$
+[[[;];];x1] [x3;x2]
+[[[;];];x1] [x4;x2]
+[[[;];];x2] [x3;x3]
+[[[;];];x2] [x4;x3]
+[[[;];];x3] [x3;x4]
+[[[;];];x3] [x4;x4]
+[[[;];];x4] [x3;x1]
+[[[;];];x4] [x4;x1]
+[x3;x1] [x4;x2]
+[x3;x2] [x4;x3]
+[x3;x3] [x4;x4]
+[x3;x4] [x4;x1]
+[x4;x1] [[[;];];x2]
+[x4;x2] [[[;];];x3]
+[x4;x3] [[[;];];x4]
+[x4;x4] [[[;];];x1]
